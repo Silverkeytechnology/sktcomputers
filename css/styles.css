@@ -1,0 +1,799 @@
+body{
+  background-color: #F2F2F2;
+  margin: 0;
+  border:0;
+  padding: 0;
+  overflow-x: hidden;
+  max-width: 100%;
+}
+.wrap {
+  margin: 0;
+  border: 0;
+  position:relative;
+}
+.productPage {
+  margin: 0;
+  border: 0;
+  position:relative;
+}
+.container{
+  margin: 0 auto;
+  width: 1366px;
+}
+
+.phoneTop{
+  padding:10px 50px 0;
+  margin:0;
+  background: transparent;
+  float:right;
+  display: inline-block;
+}
+.phoneTop i{
+float:left;
+font-size: 2.4em;
+display: table-cell;
+vertical-align: middle;
+padding-right: 10px;
+color: #fff;
+}
+.callUs{
+ float:left;
+ }
+.phoneTop span{
+  text-transform:uppercase;
+  font-family: 'Ek Mukta', "Helvetica Neue", "Helvetica", Helvetica,Arial;
+  font-weight: bold;
+  color:#fff;
+  font-size:1.2em;
+}
+.clearfix:before,
+.clearfix:after {
+    display:block;
+    content:".";
+    visibility: hidden;
+}
+.clearfix:after {
+    clear:both;
+}
+#mainMenuWrap{
+  width:100%;
+  background:transparent;
+  margin:0;
+  position:absolute;
+  top:0;
+  color:#fff;
+  z-index: 1;
+  }
+.menuWrap {
+    width:100%;
+    height:140px;
+    box-shadow:0px 1px 3px rgba(0,0,0,0.2);
+    background:#3e3436;
+    margin:0;
+    position:absolute;
+    top:0;
+    z-index: 9999;
+}
+.menu{
+    width:1250px;
+    margin:0px auto;
+    margin-left: 170px;
+}
+.menu li{
+  margin:0px;
+  list-style: none;
+  font-family:'Ek Mukta', "Helvetica Neue", "Helvetica", Helvetica,Arial;
+}
+.menu a {
+  transition-delay:all liner 0.15s;
+  color:#ffffff;
+  text-decoration: none;
+}
+.menu li:hover > a {
+  text-decoration:none;
+  color:#ffa500;
+}
+.menu .arrow{
+  font-size:11px;
+  line-height: 0%;
+}
+.menu > ul > li{
+  float:left;
+  display: inline-block;
+  position: relative;
+  font-size: 19px;
+}
+.menu > ul > li > a{
+  padding:10px 25px;
+  display:inline-block;
+  text-shadow:0px 1px 0px rgba(0,0,0,0.4);
+}
+.subMenu{
+  width: 160%;
+  padding: 5px 0px;
+  position: absolute;
+  top:100%;
+  left:0px;
+  z-index: -1;
+  opacity:0;
+  transition:opacity linear 0.15s;
+  background:transparent;
+  }
+.menu li:hover .subMenu{
+  z-index: 1;
+  opacity: 1;
+}
+.subMenu li{
+  display: block;
+  font-size:16px;
+}
+.subMenu li a{
+  padding:10px 20px;
+  display:block;
+}
+.sub-menu li a:hover {
+    background:#3e3436;
+}
+.promoBanner{
+  position: relative;
+  width:1366px;
+  height:758px;
+  background-size: 100%;
+  display: block;
+  /*margin-top: -1;*/
+  overflow: hidden;
+  z-index: -2;
+  background-image:-webkit-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),  url("../images/bg_tina_.png");
+}
+.anythingSlider{
+  width:1366px;
+  height:758px;
+  position:relative;
+  margin: 0 auto;
+  display: block;
+}
+.promoSizer {
+  width: 1000px;
+  height:758px;
+  position: absolute;
+  background: transparent;
+  z-index: 9999;
+  display: block;
+  text-align:center;
+  margin-top: 120px;
+  left:200px;
+  }
+.promoSizer h1{
+  height: 132px;
+  padding: 20px 5px 20px 5px;
+  margin:0;
+  font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;;
+  margin: 0;
+  font-size: 62px;
+  font-weight:700;
+  color: #fff;/*#faf2bd*/;
+
+}
+.promoSizer p{
+  padding: 20px 5px 20px 5px;
+  margin:0;
+  font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;;
+  margin: 0;
+  font-size: 1.60em;
+  font-weight:300;
+  color: #fff;
+
+}
+.promoSizer >.compareProds{
+  font-size: 19px;
+  padding: 24px 30px 23px;
+  line-height: 22px;
+  display: inline-block;
+  font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;;
+  margin: 20px 0 20px 0;
+  font-size: 1.42em;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight:700;
+  color: #faf2bd;
+  background-color: #ff7800;
+  border-radius: 2px;
+  zoom: 1;
+}
+.promoSizer > .financeOpts{
+  padding: 24px 30px 23px;
+  margin:0;
+  font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+  margin: 30px 0 0 0;
+  font-size: 1.42em;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight:700;
+  color: #faf2bd;
+  background-color:transparent;
+  border-radius: 2px;
+}
+.infoSidebar{
+    width:150px;
+    height:200px;
+    top:0;
+    left:10px;
+    position:absolute;
+    background: transparent; /*#faf2db*/;
+    display: block;
+    z-index: 1;
+    overflow: hidden;
+
+  }
+.logo {
+    width: 150px;
+    height: 80px;
+    float:left;
+    background: url('../images/2016_PS_SKT_Logo.png') center no-repeat;
+    overflow:hidden;
+    text-indent: -999px;
+    margin-top: 0;
+    margin-bottom: 0;
+    z-index: 10000;
+     }
+.logoText{
+   margin: 0;
+   padding: 0;
+   border: 0;
+   /*top:50px;*/
+   width:150 px;
+   height: 60 px;
+   overflow: hidden;
+   }
+.productContent{
+  width:1366px;
+  height:450px;
+  margin: 0;
+  padding:0;
+  position:relative;
+  background: #fff;/*#faf2db*/
+  z-index: 1000;
+  display: block;
+  margin-top: 0px;
+}
+.featProducts{
+  width:1168px;
+  height:450px;
+  margin-left: 100px;
+  padding: 0;
+  overflow: hidden;
+}
+.featProducts h2{
+  height: 50px;
+  font-size: 24px;
+  margin:0 12px 5px;
+  border-bottom: 1px solid #e0e0e0;
+  font-family:
+  'Ek Mukta',Helvetica,Arial;
+  text-align: center;
+}
+.product{
+ width:290px;
+ height: 370px;
+ overflow: hidden;
+ float:left;
+ padding:0px;
+}
+.product h3{
+  font-family: 'Helvetica Neue',Helvetica,Georgia,Arial;
+  font-size: 1.4em;
+  color: black;
+  text-align: center;
+}
+.productPics{
+  overflow: hidden;
+}
+.product span{
+  font-family:'Helvetica Neue',Helvetica,Georgia,Arial;
+  font-weight: bold;
+  font-size: 19px;
+}
+.product > .antivirusPics {
+  overflow: hidden;
+  align-items: center;
+  padding-left: 70px;
+}
+.product h4{
+  text-align: center;
+  font-family:'Helvetica Neue',Helvetica,Georgia,Arial;
+  font-weight: bold;
+  font-size: 14px;
+}
+.productValue{
+  width:1366px;
+  height:660px;
+  margin: 0;
+  padding:0;
+  position:relative;
+  z-index: 1000;
+  display: block;
+  margin-top: 0px;
+  background: rgb(0,181,236);
+  color: #ffffff;
+}
+.productValue h3{
+  font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-weight: 800;
+  font-size: 2.2em;
+  margin-top:2px;
+  padding:2px 5px 15px 2px;
+  margin-bottom: 0;
+  text-align: center;
+}
+.valueContent{
+  width:850px;
+  height:650px;
+  margin-left: 300px;
+  padding: 0;
+  overflow: hidden;
+}
+.valueItem{
+  width: 250px;
+  height:280px;
+  overflow: hidden;
+  float: left;
+  padding:0 0 0 5px;
+}
+.valueItem h3{
+  font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-weight: 800;
+  font-size: 1.6em;
+  margin-top:0;
+  padding:2px 5px 5px 0px;
+  margin-bottom: 0;
+  text-align: center;
+
+}
+.valueItem p{
+  font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-weight: lighter;
+  font-size: 1.2em;
+  padding: 15px 15px 15px 0px;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+}
+.whoSkt {
+  width:1366px;
+  height:270px;
+  margin: 0 0 30px 0;
+  padding:0;
+  position:relative;
+  z-index: 1000;
+  display: block;
+  margin-top: 0px;
+  background: #f2f2f2;/*fafafa;8*/
+  color: black;/*#0078d7;*/
+}
+.sktMsg {
+  width:850px;
+  height:270px;
+  margin-left: 300px;
+  padding: 0;
+  overflow: hidden;
+}
+.sktMsg h2{
+  font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-weight: 800;
+  font-size: 1.6em;
+  margin-top:0;
+  padding:30px 5px 5px 0px;
+  margin-bottom: 0;
+  text-align: center;
+}
+.sktMsg p{
+  font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-weight: lighter;
+  font-size: 1.2em;
+  padding: 50px 15px 15px 0px;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+  color: black;
+}
+.sktMsg a{
+  text-decoration:underline;
+  color: black;
+  hover:underline;
+}
+.googlemapContainer{
+  width:1366px;
+  height:370px;
+  margin: 0;
+  padding:0;
+  position:relative;
+  z-index: 1000;
+  display: block;
+  margin-top: 0px;
+  background: #f2f2f2;/*fafafa;8*/
+  color: #0078d7;
+}
+.sktGmap{
+  width:100%;
+  background: url('../images/skt_gmap2.png') center no-repeat;
+  height: 370px;
+  overflow: hidden;
+  padding: 0;
+  position:absolute;
+  top:0
+}
+.mainFooter {
+  width:1366px;
+  height:270px;
+  margin: 0;
+  padding:0;
+  position:relative;
+  z-index: 1000;
+  display: block;
+  background: #000000;
+  color: #fff;
+}
+.footerContent{
+  width:1200px;
+  height:270px;
+  margin-left: 300px;
+  padding: 10px 0;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+}
+.footerMsg{
+  width: 250px;
+  height:180px;
+  overflow: hidden;
+  float: left;
+  padding:5px 0 0 5px;
+  margin-top: 15px;
+}
+.footerMsg ul{
+margin-left: 0;
+padding: 0;
+}
+.footerMsg > .footerContact{
+  text-transform: uppercase;
+  padding: 15 0 5px 0;
+  margin: 10 0 0 0;
+  font: bold 20px/20px 'Open Sans', sans-serif;
+  /*border-bottom: 1px solid #f1f1f1;*/
+  color: #fff;
+
+}
+.footerMsg h3{
+  text-transform: uppercase;
+  padding: 5px 0 5px 0;
+  margin: 10px 0 2px 0;
+  font: normal 14px/14px 'Open Sans', sans-serif;
+  /*border-bottom: 1px solid #f1f1f1;*/
+  color: #fff;
+  text-align: left;
+}
+.footerMsg li{
+list-style: none;
+margin: 0 0 0px 0;
+padding: 0 0 0 10px;
+/*background: url(../images/li_adr.png) no-repeat 1px 50%;*/
+font: 14px/16px 'Open Sans', sans-serif;
+color: #777;
+line-height: 25px;}
+.footerMsg i{
+  font-size: 16px;
+}
+.allProducts{
+  width:1366px;
+  height:2650px;
+  margin: 0;
+  padding:0;
+  position:relative;
+  background: #fff;/*#faf2db*/
+  z-index: 2000;
+  display: block;
+  margin-top: -35px;
+  margin-bottom: 0;
+
+}
+.productType{
+  width:1168;
+  margin-left: 160px;
+  height: 600px;
+}
+.productHeader{
+  text-align: center;
+  font-family:'Ek Mukta','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-weight: lighter;
+  font-size: 62px;
+  margin-top: 165px;
+  margin-bottom: 20px;
+}
+.laptopCategory {
+  font-family:'Ek Mukta','Helvetica Neue',Helvetica,Arial,sans-serif ;
+  font-weight: lighter;
+  font-size: 2.2em;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 370px;
+  height: 59px;
+}
+.newStock {
+  font-family:'Helvetica Neue',Helvetica,Arial,sans-serif ;
+  font-weight:600;
+  font-size: 1.6em;
+  border: 0px;
+  border-color: black;
+  text-align: center;
+  padding:0px;
+  margin: 0px;
+}
+.laptopDisplay{
+  float: left;
+  width:330px;
+  height :490px;
+  overflow: hidden;
+  padding: 10px 0px 0px 0px;
+  margin-right: 20px;
+  background:#f2f2f2;
+  border-radius: 10px;
+  text-align: center;
+}
+.productName{
+  font-size: 18px;
+  font-weight: bold;
+  color:#333;
+  font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif ;
+  margin:10px 0px 6px 0px;
+  padding:0;
+  }
+.price{
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif ;
+  margin: 0px;
+  padding:0px;
+}
+.laptopDisplay li{
+  list-style:circle;
+  text-align: left;
+  margin: 0 0 0 20px;
+  color: #666;
+  font-size: 16px;
+  line-height: 1.25;
+}
+.antivirusDisplay li{
+  list-style:circle;
+  text-align: left;
+  margin: 0 0 0 20px;
+  color: #666;
+  font-size: 17px;
+  line-height: 1.25;
+  position: relative;
+}
+.antivirusDisplay{
+  width:1366px;
+  height: 570px;
+  background-color: #f2f2f6;
+  margin-bottom: 0;
+  }
+.antivirusCategory{
+  width:1168px;
+  height: 500px;
+  margin-left: 160px;
+  background-color: #f2f2f6;
+  margin-bottom: 0;
+  position: absolute;
+}
+.antivirusProduct{
+  float: left;
+  width:330px;
+  height 300px;
+  overflow: hidden;
+  padding: 10px 0px 0px 0px;
+  margin-right: 20px;
+  background:#f2f2f2;
+  border-radius: 10px;
+  text-align: center;
+}
+.pageContent{
+  width: 1100px;
+  margin: 0px auto;
+  height: auto;
+  position: relative;
+  margin-bottom: 9px;
+  font-size: 12px;
+  box-shadow: rgb(210, 210, 210) -1px 0px 0px 0px, rgb(230, 230, 230) -1px 0px 0px 0px, rgb(210, 210, 210) 1px 0px 0px 0px, rgb(230, 230, 230) 2px 0px 0px 0px, rgb(232, 232, 232) 0px -1px 0px 0px, rgba(241, 241, 241, 0.298039) 0px 2px 0px 0px, rgb(177, 177, 177) 0px 1px 0px 0px;
+  background: rgb(255, 255, 255);
+  border-radius: 4px;
+  overflow: hidden;
+}
+.contentGrid{
+  top:50px;
+  position: relative;
+  min-height: 470px;
+  padding: 30px;
+  overflow: hidden;
+  background: -webkit-linear-gradient(left, white, rgba(245, 245, 245, 0) 250px), -webkit-linear-gradient(right, white, rgba(245, 245, 245, 0) 250px), -webkit-linear-gradient(bottom, rgb(214, 214, 214), rgba(237, 237, 237, 0) 12px), -webkit-linear-gradient(bottom, whitesmoke, white 80%);
+}
+}
+.intro{
+  margin-top: 15px;
+  }
+.downloadHeader{
+  padding: 0 0 9px 0;
+  border-bottom: 1px solid #E0E0E0;
+  margin-bottom: 15px;
+  font-size: 32px;
+  font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+  text-align: center;
+}
+.downloadBorder{
+  border: 1px solid #e0e0e0;
+  border-radius: 3px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.newDisplay{
+  width:340px;
+  float:left;
+  margin: 0 20px 0;
+}
+.newDisplay h3{
+  font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  margin:8px 0 20px 0;
+}
+.pageContent .contentGrid .newDisplay h4{
+  font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-weight: bolder;
+  padding:10px auto;
+  margin:15px auto;
+  text-align: center;
+}
+.pageContent .downloadContent h3{
+  font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  margin:8px 0 20px 0;
+}
+.pageContent .contentGrid .downloadContent .downloadBorder a {
+    text-decoration: none;
+    color: #002d74;
+}
+.pageContent .contentGrid .downloadContent .downloadBorder a:hover{
+  text-decoration: underline;
+}
+.downloadContent{
+  width:650px;
+  height: 540px;
+  float: right;
+  }
+.downloadName{
+  font-size:100%;
+  font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;
+  margin-left:5px;
+  margin-top: 2px;
+  line-height: 1.4em;
+}
+
+.pageHeader{
+  font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-weight: lighter;
+  font-size: 42px;
+  margin-top: 100px;
+  text-align: center;
+}
+.pageContent .contentGrid .intro p{
+  font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+  margin-top: 8px;
+  width: 668px;
+  font-size: 18px;
+  margin-top: 0px;
+}
+.pageContent .contentGrid .options {
+  width: 800px;
+  margin-top: 35px;
+}
+.cell{
+  background-color: white;
+  width: 200px;
+  text-align: center;
+  min-height: 180px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(217, 217, 217);
+  border-image: initial;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  float:left;
+  overflow: visible;
+}
+.pageContent .contentGrid img.hero{
+  position: absolute;
+  right: 32px;
+  bottom: 130px;
+}
+.pageContent .contentGrid .cell h3{
+  font-size: 24px;
+  color: rgb(20, 121, 208);
+  padding-bottom: 5px;
+  margin:10px 0;
+  border-bottom: 1px solid rgb(217, 217, 217);
+  font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+.pageContent .contentGrid .cell p{
+  margin-top: 5px;
+  line-height: 1.4em;
+  color: rgb(153, 153, 153);
+  padding: 0px 10px;
+  font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size:1.2em;
+}
+.pageContent .contentGrid .contact .digits span{
+    margin-top: 5px;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-weight: bold;
+}
+#productPage .footnotes{
+  padding:10px 20px;
+}
+div.footnotes {
+    clear: both;
+    padding-top: 0px;
+    font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 10px;
+    line-height: 18px;
+    color: rgb(153, 153, 153);
+    text-align: justify;
+    width: auto;
+    margin: 0px;
+}
+.contactContainer {
+  width:1349px;
+  height: 550px:
+  position: relative;
+  background: -webkit-linear-gradient(left, white, rgba(245, 245, 245, 0) 250px), -webkit-linear-gradient(right, white, rgba(245, 245, 245, 0) 250px), -webkit-linear-gradient(bottom, rgb(214, 214, 214), rgba(237, 237, 237, 0) 12px), -webkit-linear-gradient(bottom, whitesmoke, white 80%);
+}
+.contactBorder {
+  width:600px;
+  height:500px;
+  float:left;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.pageContainer{
+  width: 1366px;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  background: #fff;
+  z-index: 2000;
+  display: block;
+  margin-top: -35px;
+  margin-bottom: 0;
+}
+.pageContainer .contactBorder h2{
+  font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 8px 0 20px 0;
+}
+.pageContainer .contactBorder h3{
+  font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size: 19px;
+  font-weight: bold;
+  margin: 8px 0 20px 0;
+}
+.pageContainer .contactBorder p{
+  font-family: Helvetica,'Helvetica Neue',"gotham_lightregular",sans-serif;
+  font-size: 1em;
+  font-style: normal;
+  font-weight:normal;
+  line-height: 1.46;
+}
