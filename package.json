@@ -1,29 +1,17 @@
 {
   "name": "sktcomputers",
-  "version": "0.0.1",
-  "description": "Application used by Silverkey Technologies to power their website",
-  "engines": {
-    "node": "5.8.0"
-  },
-   "dependencies":
-  {
-    "ejs": "^2.3.1",
-    "express": "^4.11.0"
-
-  },  
-
-  "main": "index.js",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "start": "node index.js"
+    "start": "node ./bin/www"
   },
-   "repository": {
-    "type": "git",
-    "url": "https://github.com/silverkeytechnologies/sktcomputers"
-  },
-  "keywords": [
-    "node",
-    "heroku",
-    "sktcomputers"
-  ],
-  "license": "MIT"
+  "dependencies": {
+    "body-parser": "~1.15.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "ejs": "~2.5.2",
+    "express": "~4.14.0",
+    "morgan": "~1.7.0",
+    "serve-favicon": "~2.3.0"
+  }
 }
