@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Application used by Silverkey Technologies to power their website",
   "engines": {
-    "node": "5.9.1"
+    "node": "5.8.0"
   },
   "main": "index.js",
   "scripts": {
