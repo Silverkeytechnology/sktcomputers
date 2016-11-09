@@ -5,7 +5,7 @@
   "engines": {
     "node": "5.8.0"
   },
-   "dependencies"
+   "dependencies":
   {
     "express": "^4.11.0"
 
