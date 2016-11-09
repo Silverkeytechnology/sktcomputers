@@ -3,14 +3,19 @@
   "version": "0.0.1",
   "description": "Application used by Silverkey Technologies to power their website",
   "engines": {
-    "node": "5.9.1"
+    "node": "5.8.0"
   },
+   "dependencies":
+  {
+    "express": "^4.11.0"
+
+  },  
+
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
-  
-  "repository": {
+   "repository": {
     "type": "git",
     "url": "https://github.com/silverkeytechnologies/sktcomputers"
   },
