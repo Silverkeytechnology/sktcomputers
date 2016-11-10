@@ -1,8 +1,8 @@
 var express = require('express');
-var router = express.Router;
+var router = express.Router();
 
 /* GET Products Page */
-router.get('/', function(res, req, next) {
+router.get('/', function(req, res, next) {
 	res.render('products', {title: "Products"});
 });
 
