@@ -10,7 +10,8 @@ var users = require('./routes/users');
 var productsView = require('./routes/products');
 var financingOptionsView = require('./routes/financing');
 var silverkeyContactDetails  = require('./routes/contact');
-var aboutUs = require('./routes/aboutUs');
+var aboutUs = require('./routes/about');
+var downloads = require('./routes/downloads');
 
 var app = express();
 
@@ -32,6 +33,7 @@ app.use('/products', productsView);
 app.use('/financing', financingOptionsView);
 app.use('/contact', silverkeyContactDetails);
 app.use('/about-us', aboutUs);
+app.use('/downloads', downloads);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

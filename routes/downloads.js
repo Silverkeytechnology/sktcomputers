@@ -1,8 +1,8 @@
 var router = require('express').Router();
 
-/* GET About Us Page */
+/* GET Download Page */
 router.get('/', function(req, res, next) {
-	res.render('aboutUs', {title: "About Us"});
+	res.render('downloads', {title: "downloads"});
 });
 
 module.exports = router;
