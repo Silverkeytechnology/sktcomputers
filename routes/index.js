@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Silverkey Technologies -reliable technology reliable financing passionate innovation' });
+  res.render('index', { title: 'Silverkey Technologies:- reliable technology reliable financing passionate innovation' });
 });
 
 
