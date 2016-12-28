@@ -1,0 +1,1026 @@
+body {
+  background-color: #F2F2F2;
+  margin: 0;
+  border:0;
+  padding: 0;
+  overflow-x: hidden;
+  width: 100%;
+  height:100%;
+  display:block;
+}
+html{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height:100%;
+}
+.wrap {
+  margin: 0;
+  border: 0;
+  position:relative;
+}
+.productPage {
+  margin: 0;
+  border: 0;
+  position:relative;
+}
+.container{
+  margin: 0 auto;
+  width: 100%;
+}
+.phoneTop{
+  padding:10px 30px 0 30px;
+  margin:0;
+  background: transparent;
+  float:right;
+  display: inline-block;
+}
+.phoneTop i{
+float:left;
+font-size: 2.4em;
+display: table-cell;
+vertical-align: middle;
+padding-right: 10px;
+color: #fff;
+}
+.callUs{
+ float:left;
+ }
+.phoneTop span{
+  text-transform:uppercase;
+  font-family: 'Ek Mukta', "Helvetica Neue", "Helvetica", Helvetica,Arial;
+  font-weight: bold;
+  color:#fff;
+  font-size:1.2em;
+  cursor: pointer;
+}
+.phoneTop ul{
+  position:absolute;
+  top:44px;
+  list-style: none;
+  margin:0;
+  padding:30px 20px 20px;
+  border-bottom: 4px #fff;
+  background: #000;
+  z-index: -1;
+  display:none;
+}
+.phoneTop .arrow{
+  font-size: 11px;
+}
+.phoneTop ul .topnavItem {
+    cursor: default;
+}
+.phoneTop ul .topnavItem, .phoneTop ul a {
+    display: block;
+    line-height: 1.5em;
+    color: #fff;
+    position: relative;
+    padding-left: 30px;
+    transition: all 300ms ease-in-out;
+    font-family: "Open Sans";
+    font-size: .64286em;
+}
+.phoneTop.active, .phoneTop:hover, .callUs ul {
+    z-index:1;
+    opacity:1;
+  }
+.callUs a{
+  text-transform:uppercase;
+  font-family: 'Ek Mukta', "Helvetica Neue", "Helvetica", Helvetica,Arial;
+  font-weight: bold;
+  color:#fff;
+  font-size:1.2em;
+}
+.clearfix:before,
+.clearfix:after {
+    display:block;
+    content:".";
+    visibility: hidden;
+}
+.clearfix:after {
+    clear:both;
+}
+#mainMenuWrap{
+  width:100%;
+  background:transparent;
+  margin:0;
+  position:absolute;
+  top:0;
+  color:#fff;
+  z-index: 1;
+  }
+.menuWrap {
+    width:100%;
+    height:140px;
+    box-shadow:0px 1px 3px rgba(0,0,0,0.2);
+    background:#3e3436;
+    margin:0;
+    position:absolute;
+    top:0;
+    z-index: 9999;
+}
+/* menu */
+.menu {
+	position: relative;
+	margin: 112px 0;
+  text-align: center;
+  margin-top: 25px;
+}
+.menu ul {
+	margin: 0;
+	padding: 0;
+}
+.menu li {
+	margin: 0 5px 10px 0;
+	padding: 0;
+	list-style: none;
+	display: inline-block;
+  font-family:"Helvetica Neue", "Helvetica", Helvetica,Arial;
+  }
+.menu a {
+	padding: 3px 12px;
+	text-decoration: none;
+	color:#ffffff;
+	line-height: 100%;
+}
+.menu a:hover {
+  color:#ffa500;
+}
+.menu .home a {
+	background: #999;
+	color: #fff;
+	border-radius: 5px;
+}
+/* Navigation Positioning*/
+/* right menu */
+.menu.right ul {
+	text-align: right;
+}
+/* center menu */
+.menu.center ul {
+	text-align: center;
+}
+.promoBanner{
+  position: relative;
+  width:100%;
+  height:26.69%;
+  background-size: cover;
+  display: block;
+  overflow: hidden;
+  background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/bg_tina_.png') ;
+  background-repeat: no-repeat;
+}
+.anythingSlider{
+  width:98.75%;
+  height:758px;
+  position:relative;
+  margin: 0 auto;
+  display: block;
+}
+.promoSizer {
+  width:73.2%;
+  height:26.96%;
+  position: relative;
+  background: transparent;
+  z-index: 9999;
+  display: block;
+  text-align:center;
+  margin-top: 120px;
+  left:200px;
+  }
+.promoSizer h1{
+  height: 132px;
+  padding: 20px 5px 20px 5px;
+  margin:0;
+  font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;;
+  margin: 0;
+  font-size: 62px;
+  font-weight:700;
+  color: #fff;
+}
+.promoSizer p{
+  padding: 20px 5px 20px 5px;
+  margin:0;
+  font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;;
+  margin: 0;
+  font-size: 1.60em;
+  font-weight:300;
+  color: #fff;
+
+}
+.promoSizer >.compareProds{
+  width:40%;
+  font-size: 19px;
+  padding: 24px 10px 23px;
+  line-height: 22px;
+  display: block;
+  font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;;
+  margin: 0 auto;
+  font-size: 1.42em;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight:700;
+  color: #faf2bd;
+  background-color: #ff7800;
+  border-radius: 2px;
+  zoom:1;
+  margin-bottom: 75px;
+  }
+.compareProds a {
+  transition-delay:all liner 0.15s;
+  color: #faf2bd;
+}
+a.compareProds{
+  text-decoration: none;
+  margin-bottom: 60px;
+}
+.promoSizer > .financeOpts{
+  padding: 24px 30px 23px;
+  margin:30px 0 0 0;
+  font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+  margin: 30px 0 0 0;
+  font-size: 1.42em;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight:700;
+  color: #faf2bd;
+  background-color:transparent;
+  border-radius: 1px;
+  border-color: #fff;
+  border-width: 2px;
+  border-style: solid;
+}
+ a.financeOpts {
+ margin:30px 0 0 0;
+ text-decoration: none;
+}
+.infoSidebar{
+    width:115px;
+    height:auto;
+    top: -20px;
+    position:absolute;
+    background: transparent;
+    display: block;
+    z-index: 1;
+    overflow: hidden;
+    left:0;
+  }
+.logo {
+    width: 150px;
+    height: 80px;
+    float:left;
+    background: url('../images/2016_PS_SKT_Logo.png') center no-repeat;
+    overflow:hidden;
+    margin-top: 0;
+    margin-bottom: 0;
+    z-index: 10000;
+     }
+.logoText{
+   margin: 0;
+   padding: 0;
+   border: 0;
+   width:115px;
+   height:60px;
+   overflow: hidden;
+   }
+.productContent{
+  width:90%;
+  height:100%;
+  margin: 0 auto;
+  padding:0;
+  position:relative;
+  background: #fff;
+  z-index: 1000;
+  display: block;
+  margin-top: 0px;
+}
+.featProducts{
+  width:100%;
+  height:100%;
+  margin:0 auto;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+}
+.featProducts h2{
+  height: 50px;
+  font-size: 24px;
+  margin:0 12px 5px;
+  border-bottom: 1px solid #e0e0e0;
+  font-family:
+  'Ek Mukta',Helvetica,Arial;
+  text-align: center;
+}
+.product{
+ width:23.89%;
+ height: 351px;
+ overflow: hidden;
+ display: inline-block;
+ padding:0;
+}
+.product h3{
+  font-family: 'Helvetica Neue',Helvetica,Georgia,Arial;
+  font-size: 1.4em;
+  color: black;
+  text-align: center;
+  margin-bottom:15px;
+}
+.productPics{
+  overflow: hidden;
+}
+.product span{
+  font-family:'Helvetica Neue',Helvetica,Georgia,Arial;
+  font-weight: bold;
+  font-size: 19px;
+}
+.product > .antivirusPics {
+  overflow: hidden;
+  align-items: center;
+}
+.product h4{
+  text-align: center;
+  font-family:'Helvetica Neue',Helvetica,Georgia,Arial;
+  font-weight: bold;
+  font-size: 14px;
+}
+.productValue{
+  width:90%;
+  height:23.23%;
+  margin: 0 auto;
+  padding:0;
+  position:relative;
+  z-index: 1000;
+  display: block;
+  margin-top: 0px;
+  background: rgb(0,181,236);
+  color: #ffffff;
+}
+.productValue h3{
+  font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-weight: 800;
+  font-size: 2.2em;
+  margin-top:2px;
+  padding:2px 5px 15px 2px;
+  margin-bottom: 0;
+  text-align: center;
+}
+.valueContent{
+  width:70%;
+  height:22.88%;
+  margin:0 auto;
+  padding: 0;
+  overflow: hidden;
+  text-align:center;
+}
+.valueItem{
+  width: 32.59%;
+  height:280px;
+  overflow: hidden;
+  display: inline-block;
+  padding:0;
+}
+.valueItem h3{
+  font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-weight: 800;
+  font-size: 1.6em;
+  margin-top:0;
+  padding:2px 5px 5px 0px;
+  margin-bottom: 0;
+  text-align: center;
+
+}
+.valueItem p{
+  font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-weight: lighter;
+  font-size: 1.2em;
+  padding: 15px 15px 15px 0px;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+}
+.whoSkt {
+  width:90%;
+  height:9.5%;
+  margin: 0 auto;
+  padding:0;
+  position:relative;
+  z-index: 1000;
+  display: block;
+  margin-top: 0px;
+  background: #f2f2f2;
+  color: black;
+}
+.sktMsg {
+  width:100%;
+  height:9.5%;
+  margin:0 auto;
+  padding: 0;
+  overflow: hidden;
+}
+.sktMsg h2{
+  font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-weight: 800;
+  font-size: 1.6em;
+  margin-top:0;
+  padding:30px 5px 5px 0px;
+  margin-bottom: 0;
+  text-align: center;
+}
+.sktMsg p{
+  font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-weight: lighter;
+  font-size: 1.2em;
+  padding: 50px 15px 15px 0px;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+  color: black;
+}
+.sktMsg a{
+  text-decoration:underline;
+  color: black;
+  hover:underline;
+}
+.googlemapContainer{
+  width:90%;
+  height:370px;
+  margin: 0 auto;
+  padding:0;
+  position:relative;
+  z-index: 1000;
+  display: block;
+  margin-top: 0px;
+  background: #f2f2f2;
+  color: #0078d7;
+}
+.sktGmap{
+  width:100%;
+  background: url('../images/skt_gmap2.png') center no-repeat;
+  height: 100%;
+  overflow: hidden;
+  padding: 0;
+  position:absolute;
+  top:0
+}
+.mainFooter {
+  width:90%;
+  margin: 0 auto;
+  padding:0;
+  position:relative;
+  z-index: 1000;
+  display: block;
+  background: #000000;
+  color: #fff;
+}
+.footerContent{
+  width:70%;
+  height:90%;
+  margin:0 auto;
+  padding: 10px 0;
+  overflow: hidden;
+  position: relative;
+  top: 0;
+}
+.footerMsg{
+  width: 30.59%;
+  height:76%;
+  float: left;
+  padding:5px 0 0 15px;
+  margin-top: 15px;
+}
+.footerMsg ul{
+margin-left: 0;
+padding: 0;
+}
+.footerMsg > .footerContact{
+  text-transform: uppercase;
+  padding: 15 0 5px 0;
+  margin: 10 0 0 0;
+  font: bold 20px/20px 'Open Sans', sans-serif;
+  color: #fff;
+
+}
+.footerMsg h3{
+  text-transform: uppercase;
+  padding: 5px 0 5px 0;
+  margin: 10px 0 2px 0;
+  font: normal 14px/14px 'Open Sans', sans-serif;
+  color: #fff;
+  text-align: left;
+}
+.footerMsg li,a{
+list-style: none;
+margin: 0;
+padding: 0;
+font: 14px/16px 'Open Sans', sans-serif;
+color: #777;
+text-decoration: none;
+line-height: 25px;}
+.footerMsg i{
+  font-size: 16px;
+}
+.allProducts{
+  width:100%;
+  height:79.68%;
+  margin:0 auto;
+  padding:0;
+  position:relative;
+  background: #fff;/*#faf2db*/
+  z-index: 2000;
+  display: block;
+  margin-top: -35px;
+  margin-bottom: 0;
+
+}
+.productType{
+  width:97%;
+  margin:0 auto;
+  height: 22.64%;
+  text-align:center;
+}
+.productHeader{
+  text-align: center;
+  font-family:'Ek Mukta','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-weight: lighter;
+  font-size: 62px;
+  margin-top: 165px;
+  margin-bottom: 20px;
+}
+.laptopCategory {
+  font-family:'Ek Mukta','Helvetica Neue',Helvetica,Arial,sans-serif ;
+  font-weight: lighter;
+  font-size: 2.2em;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  height: 59px;
+}
+#avIntro {
+  font-family:'Ek Mukta','Helvetica Neue',Helvetica,Arial,sans-serif ;
+  font-weight: lighter;
+  font-size: 2.2em;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin:0 auto;
+  height: 59px;
+}
+}
+.newStock {
+  font-family:'Helvetica Neue',Helvetica,Arial,sans-serif ;
+  font-weight:600;
+  font-size: 1.6em;
+  border: 0px;
+  border-color: black;
+  text-align: center;
+  padding:0px;
+  margin: 0px;
+}
+.laptopDisplay{
+  display:inline-block;
+  width:23.63%;
+  height :490px;
+  overflow: hidden;
+  padding: 10px 0px 0px 0px;
+  margin-right: 20px;
+  background:#f2f2f2;
+  border-radius: 10px;
+  text-align: center;
+}
+.productName{
+  font-size: 18px;
+  font-weight: bold;
+  color:#333;
+  font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif ;
+  margin:10px 0px 6px 0px;
+  padding:0;
+  }
+.price{
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif ;
+  margin: 0px;
+  padding:0px;
+}
+.laptopDisplay li{
+  list-style:circle;
+  text-align: left;
+  margin: 0 0 0 20px;
+  color: #666;
+  font-size: 16px;
+  line-height: 1.25;
+}
+.antivirusDisplay li{
+  list-style:circle;
+  text-align: left;
+  margin: 0 0 0 20px;
+  color: #666;
+  font-size: 17px;
+  line-height: 1.25;
+  position: relative;
+}
+.antivirusDisplay{
+  width:90%;
+  height: 95%;
+  margin:0 auto;
+  background-color: #f2f2f6;
+  margin-bottom: 0;
+  text-align: center;
+  }
+.antivirusCategory{
+  width:100%;
+  height: 87.72%;
+  margin: 0 auto;
+  background-color: #f2f2f6;
+  margin-bottom: 0;
+  position: relative;
+  text-align: center;
+}
+.antivirusProduct{
+  display: inline-block;
+  width:23.63%;
+  overflow: hidden;
+  padding: 10px 0px 0px 0px;
+  margin-right: 20px;
+  background:#f2f2f2;
+  border-radius: 10px;
+  text-align: center;
+}
+.pageContent{
+  width: 82.5%;
+  margin: 0 auto;
+  height: auto;
+  position: relative;
+  margin-bottom: 9px;
+  font-size: 12px;
+  box-shadow: rgb(210, 210, 210) -1px 0px 0px 0px, rgb(230, 230, 230) -1px 0px 0px 0px, rgb(210, 210, 210) 1px 0px 0px 0px, rgb(230, 230, 230) 2px 0px 0px 0px, rgb(232, 232, 232) 0px -1px 0px 0px, rgba(241, 241, 241, 0.298039) 0px 2px 0px 0px, rgb(177, 177, 177) 0px 1px 0px 0px;
+  background: rgb(255, 255, 255);
+  border-radius: 4px;
+  overflow: hidden;
+}
+.contentGrid{
+  top:50px;
+  position: relative;
+  min-height: 470px;
+  padding: 30px;
+  overflow: hidden;
+  background: -webkit-linear-gradient(left, white, rgba(245, 245, 245, 0) 250px), -webkit-linear-gradient(right, white, rgba(245, 245, 245, 0) 250px), -webkit-linear-gradient(bottom, rgb(214, 214, 214), rgba(237, 237, 237, 0) 12px), -webkit-linear-gradient(bottom, whitesmoke, white 80%);
+}
+}
+.intro{
+  margin-top: 15px;
+  }
+.downloadHeader{
+  padding: 0 0 9px 0;
+  border-bottom: 1px solid #E0E0E0;
+  margin-bottom: 15px;
+  font-size: 32px;
+  font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+  text-align: center;
+}
+.downloadBorder{
+  border: 1px solid #e0e0e0;
+  border-radius: 3px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.newDisplay{
+  width:30.9%;
+  float:left;
+  margin: 0 20px 0;
+}
+.newDisplay h3{
+  font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  margin:8px 0 20px 0;
+}
+.pageContent .contentGrid .newDisplay h4{
+  font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-weight: bolder;
+  padding:10px auto;
+  margin:15px auto;
+  text-align: center;
+}
+.pageContent .downloadContent h3{
+  font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  margin:8px 0 20px 0;
+}
+.pageContent .contentGrid .downloadContent .downloadBorder a {
+    text-decoration: none;
+    color: #002d74;
+}
+.pageContent .contentGrid .downloadContent .downloadBorder a:hover{
+  text-decoration: underline;
+}
+.downloadContent{
+  width:63.4%;
+  height: auto;
+  float: right;
+  }
+.downloadName{
+  font-size:100%;
+  font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;
+  margin-left:5px;
+  margin-top: 2px;
+  line-height: 1.4em;
+}
+
+.pageHeader{
+  font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-weight: lighter;
+  font-size: 42px;
+  margin-top: 100px;
+  text-align: center;
+}
+.pageContent .contentGrid .intro p{
+  font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+  margin-top: 8px;
+  width: 50%;
+  font-size: 18px;
+  margin-top: 0px;
+}
+.pageContent .contentGrid .options {
+  width: 59%;
+  margin-top: 35px;
+}
+.cell{
+  background-color: white;
+  width: 200px;
+  text-align: center;
+  min-height: 180px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(217, 217, 217);
+  border-image: initial;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  float:left;
+  overflow: visible;
+}
+.pageContent .contentGrid img.hero{
+  position: absolute;
+  right: 32px;
+  bottom: 190px;
+}
+.pageContent .contentGrid .cell h3{
+  font-size: 24px;
+  color: rgb(20, 121, 208);
+  padding-bottom: 5px;
+  margin:10px 0;
+  border-bottom: 1px solid rgb(217, 217, 217);
+  font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+.pageContent .contentGrid .cell p{
+  margin-top: 5px;
+  line-height: 1.4em;
+  color: rgb(153, 153, 153);
+  padding: 0px 10px;
+  font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size:1.2em;
+}
+.pageContent .contentGrid .contact .digits span{
+    margin-top: 5px;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-weight: bold;
+}
+.footnotes p {
+    clear: both;
+    padding-top: 10px 20p;
+    font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 10px;
+    line-height: 18px;
+    color: rgb(153, 153, 153);
+    text-align: justify;
+    width: auto;
+    margin: 0px;
+}
+.contactContainer {
+  width:95.75%;
+  margin: 0 auto;
+  height: auto;
+  position: relative;
+  background: -webkit-linear-gradient(left, white, rgba(245, 245, 245, 0) 250px), -webkit-linear-gradient(right, white, rgba(245, 245, 245, 0) 250px), -webkit-linear-gradient(bottom, rgb(214, 214, 214), rgba(237, 237, 237, 0) 12px), -webkit-linear-gradient(bottom, whitesmoke, white 80%);
+}
+.contactBorder {
+  width:45%;
+  height:auto;
+  float:left;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.pageContainer{
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 0;
+  position: relative;
+  background: #fff;
+  z-index: 2000;
+  display: block;
+  margin-top: -35px;
+  margin-bottom: 0;
+}
+.pageContainer .contactBorder h2{
+  font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 8px 0 20px 0;
+}
+.pageContainer .contactBorder h3{
+  font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size: 19px;
+  font-weight: bold;
+  margin: 8px 0 20px 0;
+}
+.pageContainer .contactBorder p{
+  font-family:'Open Sans','Helvetica Neue',"gotham_lightregular",sans-serif;
+  font-size:18px;
+  font-style: normal;
+  font-weight:normal;
+  line-height: 1.3;
+  color: #000000;
+}
+.ourTeam{
+  width: 98.75%;
+  margin:0 auto ;/*0 100px;*/
+  height:auto;
+  background: -webkit-linear-gradient(left, white, rgba(245, 245, 245, 0) 250px), -webkit-linear-gradient(right, white, rgba(245, 245, 245, 0) 250px), -webkit-linear-gradient(top, rgb(214, 214, 214), rgba(237, 237, 237, 0) 12px), -webkit-linear-gradient(top, whitesmoke, white 80%);
+  padding: 20px 20px;
+}
+.ourTeam h3{
+  text-align: center;
+  font-family: 'Open Sans',Helvetica,Arial,sans-serif;
+  font-size: 50px;
+  font-weight:700;
+  font-style: normal;
+  margin: 8px 0 20px 0px;
+}
+.teamContainer{
+  width:89%;
+  height:auto;
+  margin:0 auto;
+  }
+.teamMember{
+  width:29.4%;
+  padding: 10px;
+  margin:10px;
+  text-align: center;
+  float:left;
+}
+.trustUs{
+  width:98.75%;
+  height:auto;
+  background:#fff ;
+  padding: 20px 20px;
+}
+.teamMember p{
+  padding: 5px 0;
+  margin: 0;
+  font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+}
+
+/*Desktops
+=================================================*/
+@media screen and (max-width: 1261px) and (min-width: 803px)
+{
+#mainMenuWrap .menu > ul {
+    display:block;
+    margin:0 115px;
+}
+}
+@media screen and (min-width:320px) and (max-width:899px){
+  .promoSizer h1 {
+    height: auto;
+    padding: 0;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    margin: 25px 0;
+    font-size: 26px;
+    font-weight: 600;
+    color: #fff;
+}
+  .product {
+    min-width: 180px;
+    height: auto;
+    overflow: hidden;
+    display: inline-block;
+    padding: 0;
+}
+.promoSizer p {
+    padding: 0;
+    margin: 25px 0;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 1.20em;
+    font-weight: 300;
+    color: #fff;
+}
+.promoSizer {
+    width: 100%;
+    height: 26.96%;
+    position: relative;
+    background: transparent;
+    z-index: 9999;
+    display: block;
+    text-align: center;
+    margin-top: 180px;
+    left: 0px;
+}
+.promoSizer >.compareProds {
+    width: 35%;
+    padding: 10px;
+    line-height: 22px;
+    display: block;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    margin: 110px auto;
+    font-size: 1.2em;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #faf2bd;
+    background-color: transparent;
+    border-radius: 2px;
+    zoom: 1;
+    margin-bottom: 85px;
+    border-width: 2px;
+    border-style:solid;
+}
+.promoSizer > .financeOpts {
+    padding: 24px 30px 23px;
+    margin: 30px 0 0 0;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    margin: 30px 0 0 0;
+    font-size: 1.2em;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #faf2bd;
+    background-color: #ff7800;
+    border-radius: 1px;
+    border-color: #fff;
+    border-width: 2px;
+    border-style: solid;
+}
+  .valueItem {
+    min-width: 180px;
+    height:290px;
+    overflow: hidden;
+    display: inline-block;
+    padding:0;
+  }
+  .footerMsg{
+    min-width: 180px;
+    height:76%;
+    display:inline-block;
+    padding:5px 0 0 15px;
+    margin-top: 15px;
+  }
+  .menu {
+    position: relative;
+    margin: 0px 0px 112px 0;
+    text-align: center;
+    margin-top: 25px;
+    left: 16px;
+    }
+  .phoneTop {
+    padding: 10px 20px 0 10px;
+    margin: 0 10px 0 0;
+    background: transparent;
+    float: right;
+    display: inline-block;
+    height:27px;
+}
+  .phoneTop i {
+      float: left;
+      font-size: 1.9em;
+      display: table-cell;
+      vertical-align: middle;
+      padding-right:0px;
+      color: #fff;
+  }
+  .phoneTop span {
+    text-transform: uppercase;
+    font-family: "Helvetica Neue", "Helvetica", Helvetica,Arial;
+    font-weight: bold;
+    color: #fff;
+    font-size: 1.0em;
+    cursor: pointer;
+    margin:0px 30px 0 0px;
+}
+.menu ul > li > a {
+  font-size: 14px;
+  font-family:"Helvetica Neue", "Helvetica", Helvetica,Arial;
+  color: #ffff;
+}
+ /*.menu a{
+   font-size: 12px;
+   font-family:"Helvetica Neue", "Helvetica", Helvetica,Arial;
+   color: #ffa500;
+ }*/
+}
+img, embed,object,video {
+  max-width: 100%;
+}
